@@ -1,11 +1,52 @@
 body {
   background-color: #ffffcc;
   font-family: 'Roboto Condensed', sans-serif;
-  padding-left: 20px;
+  margin: 0;
 }
+
 h1 {
-  color: black;
+  color: black
 }
+
 p {
   color: black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+
+footer {
+  background-color: #333333;
+  margin-bottom: -16px;
+}
+
+div {
+  padding-left: 15px;
+}
+
+p#footerParagraph {
+  color: white;
+  padding-left: 15px;
 }
