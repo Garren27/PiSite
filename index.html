@@ -3,54 +3,60 @@
   <head>
     <title>Garren's PiSite</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="CSS/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
   </head>
   <body>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="#news">News</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <li><a href="#about">About</a></li>
-    </ul>
-
-    <div>
-    <!-- main landing page -->
-    <h1>Welcome!</h1>
-
-    <hr>
-    <h2>Introduction</h2>
-    <p>This is Garren McCallum's personal website, proudly powered by a Raspberry Pi</p>
-    <p>It is here where I will be focusing my HTML, CSS and JS skills</p>
-    <hr>
-
-    <h2>About Me</h2>
-    <p>I am a graduate of the Honours Specialization Computer Science Bachelor's Degree program from
-    Western University</p>
-    <!-- image must be included on pi -->
-    <p>
-      <img title="Western Logo" src="Resources/Stacked_Rev_Full.gif" alt="Western Logo" width="192" height="235"></img>
-    </p>
-
-    <br>
-    <p>My pride and joy in its original glory, my Mustang</p>
-
-    <img title="Mustang" src="Resources/Mustang.jpg" alt="Mustang" width="500" height="250" usemap="#mustangMap"></img>
-    <map name="mustangMap">
-      <area shape='rect' coords="50, 40, 380, 230" alt="Mustang Wikipedia" href="https://en.wikipedia.org/wiki/Ford_Mustang_(fourth_generation)" target="_blank">
-    </map>
-
-    <hr>
+    <!-- Navbar along the top of the page -->
+    <div id="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="HTML/news.html">News</a></li>
+        <li><a href="HTML/contact.html">Contact</a></li>
+        <li><a href="HTML/about.html">About Me</a></li>
+        <li><a href="HTML/projects.html">Projects</a></li>
+        <li><a href="HTML/interests.html">Interests</a></li>
+      </ul>
     </div>
-    <br></br>
-    <footer>
-      <p id="footerParagraph">Created By: Garren McCallum</p>
-      <p id="footerParagraph">Contact information: garren.mccallum@gmail.com</p>
-      <p id="footerParagraph">
-        <img title="Pi Logo" src="Resources/PiLogo.jpg" alt="Pi Logo" width="75" height="100" ></img>
-        Proudly powered by my Raspberry Pi
-      </p>
-    </footer>
 
+    <!-- Main landing page body -->
+    <div id="body">
+      <h1 class="bodyContent">Welcome to my homepage!</h1>
+
+      <hr>
+      <h2 class="bodyContent">Introduction</h2>
+      <p class="bodyContent">This is my personal website, proudly hosted by a Raspberry Pi</p>
+      <p class="bodyContent">It is here where I will be focusing my HTML, CSS and JS skills</p>
+      <hr>
+
+      <h2 class="bodyContent">Brief About Me</h2>
+      <p class="bodyContent">I am a graduate of the Honours Specialization Computer Science Bachelor's Degree program from
+        Western University</p>
+
+      <br>
+      <p class="bodyContent">My pride and joy in its original glory, my Mustang</p>
+
+      <img class="bodyContent" title="Mustang" src="Resources/Mustang.jpg" alt="Mustang" width="500" height="250" usemap="#mustangMap"></img>
+      <map name="mustangMap">
+        <area shape='rect' coords="50, 40, 380, 230" alt="Mustang Wikipedia" href="https://en.wikipedia.org/wiki/Ford_Mustang_(fourth_generation)" target="_blank">
+      </map>
+
+      </hr>
+    </div>
+
+    <div id="footer">
+
+      <footer>
+        <img class="footerBarImage" title="Pi Logo" src="Resources/PiLogo.jpg" alt="Pi Logo" width="85" height="100" ></img>
+        <img class="footerBarImage" title="HTML5 Logo" src="Resources/htmlLogo.png" alt="HTML5 Logo" width="85" height="100" ></img>
+        <img class="footerBarImage" title="UWO Logo" src="Resources/Stacked_Rev_Full.gif" alt="Western Logo" width="85" height="100" ></img>
+
+        <p class="footerBar">Created By: Garren McCallum</p>
+        <p class="footerBar">Contact information: garren.mccallum@gmail.com</p>
+        <p class="footerBar">Proudly powered by my Raspberry Pi</p>
+      </footer>
+
+    </div>
   </body>
 </html>
