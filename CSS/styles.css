@@ -62,6 +62,14 @@ html, body {
   margin: 10px;
 }
 
+p.bodyContent{
+  text-indent: 1em;
+}
+
+li.bodyContent{
+  list-style-type: none;
+}
+
 .bodyContentImage {
   margin-right: 10px;
   margin-bottom: 3px;
@@ -96,4 +104,25 @@ html, body {
   clear: both;
   margin-bottom: 10px;
 
+}
+
+.rightImgs {
+  padding-right: 10px;
+  padding-bottom: 10px;
+  float: right;
+}
+
+.leftImgs {
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  float: left;
+}
+
+.interests {
+  margin-left: 20px;
+}
+
+.gamesList {
+  margin-left: 30px;
 }
