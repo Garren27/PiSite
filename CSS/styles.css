@@ -126,3 +126,8 @@ li.bodyContent{
 .gamesList {
   margin-left: 30px;
 }
+
+.gitHubLink {
+  color: white;
+  text-decoration: none;
+}
